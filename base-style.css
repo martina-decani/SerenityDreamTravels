@@ -1,4 +1,11 @@
 /* -- NAVBAR -- */
+body{
+    color:white;
+    background-color: white;
+    background-image: url('../assets/background.png');
+}
+
+
 .navbar {
     position: absolute;
     width: 100%;
@@ -198,4 +205,3 @@
       text-align: center;
     }
   }
-  
