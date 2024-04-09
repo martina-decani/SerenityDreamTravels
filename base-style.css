@@ -1,5 +1,13 @@
+.glass{
+  background-color: rgba(158, 158, 158, 0.155);
+  backdrop-filter: blur(10px);
+}
+
+
 /* -- NAVBAR -- */
 body{
+    background-image: url('assets/background.png');
+    background-size: cover;
     color:white;
 }
 
@@ -72,6 +80,14 @@ body{
     border-radius: 10px;
     margin-inline: 10px;
   }
+  .nav-link.active{
+    color:#3a37e4 !important;
+    background-color: rgba(255, 255, 255, 0.541);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-inline: 10px;
+
+  }
   
   /* Burger Menu */
   .navbar-toggler {
@@ -143,17 +159,17 @@ body{
     display: flex;
     align-items: center;
     align-content: center;
-    background-color: #564fe0;
     padding: 0px 70px;
     justify-content: space-between;
+    color:#211E43;
   }
   
-  .footer-text {
+  .address {
     color: var(--dark, #211E43);
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
     text-align: right;
   }
@@ -172,14 +188,6 @@ body{
     padding: 20px 0;
   }
   
-  .footer h3 {
-    color: var(--dark, #211E43);
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
   
   .custom-btn {
     background-color: #211E43;
@@ -196,9 +204,15 @@ body{
     background-color: #564fe0;
     border-color: #564fe0;
   }
-  
-  @media (max-width: 991.98px) {
-    .footer-text {
-      text-align: center;
-    }
+
+  .social-btn{
+    fill:#211E43;
+  }
+
+  .social-btn:hover{
+    fill:#564fe0;
+  }
+
+  .social-btn:active{
+    fill:#a8a6f5;
   }

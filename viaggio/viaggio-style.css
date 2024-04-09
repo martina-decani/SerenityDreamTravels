@@ -1,6 +1,6 @@
 /* HEADER */
 #header-bg{
-    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 60%, white), url('../assets/header.png');
+    background-image: url('../assets/header.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,10 +10,7 @@
     height: 120%;
 }
 
-.glass{
-    background-color: rgba(158, 158, 158, 0.155);
-    backdrop-filter: blur(10px);
-}
+
 
 .cta {
     color:white;
@@ -76,7 +73,7 @@ p{
     font-weight: 400;
     line-height: 160%;
     text-align: left;
-    color:black;
+    color:#211E43;
 }
 
 #tag-button {
