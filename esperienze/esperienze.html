@@ -74,38 +74,39 @@
   </div>
   <!-- FORM E FILTRI VIAGGI -->
   <div class="filters container mx-auto text-center mt-5 glassmorphism">
+    <div class="row justify-content-center"></div>
     <div class="row justify-content-center">
       <div class="col-12 col-sm-6 col-lg-3 col-xl-2 mb-3">
         <label for="checkin" class="form-label">CHECK-IN</label>
-        <input type="date" class="form-control" id="checkin" name="checkin" />
+        <input type="date" style="height:39px;" class="form-control" id="checkin" name="checkin" />
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3 col-xl-2 mb-3">
         <label for="checkout" class="form-label">CHECK-OUT</label>
-        <input type="date" class="form-control" id="checkout" name="checkout" />
+        <input type="date" style="height:39px;" class="form-control" id="checkout" name="checkout" />
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3 col-xl-2 mb-3">
         <label for="pianeta" class="form-label">PIANETA</label>
-        <select class="form-select" id="select-pianeta" name="pianeta">
+        <select class="form-select" style="height:39px;" id="select-pianeta" name="pianeta">
           <option value="" selected>Tutti</option>
         </select>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3 col-xl-2 mb-3">
         <label for="tipoViaggio" class="form-label">TIPO DI VIAGGIO</label>
-        <select class="form-select" id="select-tipo" name="tipoViaggio">
-          <option value="" selected>Tutti</option>
+        <select class="form-select" style="height:39px;" id="select-tipo" name="tipoViaggio">
+          <option value="" selected >Tutti</option>
         </select>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3 col-xl-2 mb-3">
         <label for="adulti" class="form-label">ADULTI</label>
-        <div class="input-group">
+        <div style="background-color:white;" class="input-group p-1 ">
           <button class="btn rounded-circle" type="button" id="btnMinusAdulti" style="background-color: #21cccc">
             -
           </button>
-          <input type="number" class="form-control" id="adulti" name="adulti" min="0" value="0" />
+          <input type="number" class="form-control" id="adulti" name="adulti" min="0" value="0" style="background:none; border:none;" />
           <button class="btn rounded-circle" type="button" id="btnPlusAdulti" style="background-color: #21cccc">
             +
           </button>
@@ -114,16 +115,20 @@
 
       <div class="col-12 col-sm-6 col-lg-3 col-xl-2 mb-3">
         <label for="Piccoli" class="form-label">PICCOLI</label>
-        <div class="input-group">
+        <div style="background-color:white" class="input-group p-1">
           <button class="btn rounded-circle" type="button" id="btnMinusPiccoli" style="background-color: #21cccc">
             -
           </button>
-          <input type="number" class="form-control" id="Piccoli" name="Piccoli" min="0" value="0" />
+          <input type="number" class="form-control" id="Piccoli" name="Piccoli" min="0" value="0" style="background:none; border:none;" />
           <button class="btn rounded-circle" type="button" id="btnPlusPiccoli" style="background-color: #21cccc">
             +
           </button>
+          
         </div>
       </div>
+    
+
+
 
       <div class="col-12 col-xl-1">
         <button type="submit" class="btn btn-primary btn-custom-color btn-circle" id="btnSearch">

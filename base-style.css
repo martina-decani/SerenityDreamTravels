@@ -1,10 +1,7 @@
 /* -- NAVBAR -- */
 body{
     color:white;
-    background-color: white;
-    background-image: url('../assets/background.png');
 }
-
 
 .navbar {
     position: absolute;

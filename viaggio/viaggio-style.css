@@ -1,7 +1,6 @@
-
 /* HEADER */
 #header-bg{
-    background-image: linear-gradient(to bottom, 60%), url('../assets/header.png');
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 60%, white), url('../assets/header.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
