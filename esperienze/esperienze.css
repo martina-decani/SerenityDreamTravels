@@ -1,4 +1,4 @@
-/* Navbar */
+/* Navbar
 .navbar {
   position: absolute;
   width: 100%;
@@ -28,7 +28,7 @@
   margin-left: 20px;
 }
 
-/* Stile per i link della navbar */
+/* Stile per i link della navbar 
 .navbar-nav {
   display: flex;
   width: 580px;
@@ -53,7 +53,7 @@
   color: #FDFDFD;
 }
 
-/* Burger Menu */
+/* Burger Menu
 .navbar-toggler {
   border: 0 !important;
 }
@@ -80,7 +80,7 @@
   margin-right: 70px;
 }
 
-/* Navbar aperta */
+/* Navbar aperta 
 .navbar-toggler .top-bar {
   transform: rotate(45deg);
   transform-origin: 10% 10%;
@@ -96,7 +96,7 @@
   transform-origin: 10% 90%;
 }
 
-/* Navbar chiusa */
+/* Navbar chiusa
 .navbar-toggler.collapsed .top-bar {
   transform: rotate(0);
 }
@@ -112,7 +112,7 @@
 
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #FFFFFF;
-}
+}*/
 
 /* Header */
 .body {
@@ -207,7 +207,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 
-/* Footer */
+/* Footer
 .footer-bs {
   position: relative;
   min-height: 165px;
@@ -275,3 +275,4 @@ input[type="number"]::-webkit-outer-spin-button {
     text-align: center;
   }
 }
+*/
