@@ -10,8 +10,6 @@
     height: 120%;
 }
 
-
-
 .cta {
     color:white;
     background-color: #6865FF;
@@ -112,7 +110,7 @@ p{
 }
 
 @media(min-width:992px){
-    #attivita-mobile{
+    #activities-mobile{
         display:none;
     }
 }
