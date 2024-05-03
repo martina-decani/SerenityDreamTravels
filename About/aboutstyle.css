@@ -231,7 +231,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-    @media screen and min-width: 768px {
+    @media screen and (min-width: 768px) {
        #reviewdiv {
         flex-direction: row;
     }
@@ -366,7 +366,7 @@ h1 {
 }
 
 #footer_code {
-    color: #211E43);
+    color: #211E43;
     text-align: center;
     font-family: Montserrat;
     font-size: 0.75rem;
@@ -377,3 +377,10 @@ h1 {
     padding-bottom: 1rem;
 }
 
+.img-res {
+   
+    height: auto;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    object-fit: cover;
+}
