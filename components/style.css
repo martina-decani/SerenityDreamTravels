@@ -1,6 +1,7 @@
 .glass{
   background-color: rgba(158, 158, 158, 0.155);
   backdrop-filter: blur(10px);
+  border:none;
 }
 /* -- F -- */
 
@@ -8,7 +9,7 @@
 body{
     background-image: url('../assets/background.png');
     background-size: cover;
-    color:white;
+
 }
 
 .navbar {
@@ -71,22 +72,6 @@ body{
     backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-inline: 10px;
-  }
-  
-  .navbar-nav a:active{
-    color:#3a37e4 !important;
-    background-color: rgba(255, 255, 255, 0.541);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    margin-inline: 10px;
-  }
-  .nav-link.active{
-    color:#3a37e4 !important;
-    background-color: rgba(255, 255, 255, 0.541);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    margin-inline: 10px;
-
   }
   
   /* Burger Menu */

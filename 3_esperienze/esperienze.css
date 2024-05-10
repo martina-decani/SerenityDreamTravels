@@ -4,14 +4,13 @@
 }
 
 #hero-image {
-  background-image: linear-gradient(to bottom, transparent 80%, white), url('../assets/sfondo.png');
+  background-image: url('../assets/sfondo.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FDFDFD;
   text-align: center;
   position: relative;
 }
