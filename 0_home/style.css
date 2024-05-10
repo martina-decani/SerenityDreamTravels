@@ -281,7 +281,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 150%; /* 60px */
 text-align: center;
-background: var(--glass, linear-gradient(101deg, rgba(255, 255, 255, 0.30) 1.25%, rgba(255, 255, 255, 0.21) 99.35%));
+
 
 /* blur */
 backdrop-filter: blur(5px);
@@ -290,7 +290,7 @@ backdrop-filter: blur(5px);
 
 .wrapper {
 
-  background: var(--glass, linear-gradient(101deg, rgba(255, 255, 255, 0.30) 1.25%, rgba(255, 255, 255, 0.21) 99.35%));
+
 
 /* blur */
 backdrop-filter: blur(5px);
