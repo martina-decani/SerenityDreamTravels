@@ -41,6 +41,7 @@ const cardData = [
     type: "Romantico",
     text: "Un rifugio romantico su Santorinius, dove le coppie possono rilassarsi e rigenerarsi con trattamenti spa esclusivi sotto il cielo stellato.",
     image: "../assets/img_spa.png",
+  
   },
   {
     title: "Parco divertimenti celeste",
@@ -106,7 +107,7 @@ const filterExperience = (planet, type) => {
             <h2 class="card-text">${card.planet}</h2>
           </div>
         </div>
-        <div class="back">
+        <div class="back" style="background-image: >
           <div class="inner">
             <p class="card-text">${card.text}</p>
             <a href="#" class="btn btn-secondary">Scopri di più</a>
