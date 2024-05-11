@@ -8,29 +8,10 @@
     user-select: none;
 }
 
-.planets-btn {
-    position:relative;
-    color:white;
-    background-color:rgba(192, 192, 192, 0.078);
-    border-radius:10px;
-    backdrop-filter: blur(10px);
-    text-align: center;
-    padding-bottom:8px;
-    padding-top:6px;
-    padding-inline:15px;
-    text-decoration: none;
-}
-
 @media (max-width:992px){
     .planets-btn {
         display: none;
     }
-}
-
-.planet-name {
-    position:relative; 
-    color:white;
-    font-size: clamp(25px, 4vw, 40px);
 }
 
 .header-bg {

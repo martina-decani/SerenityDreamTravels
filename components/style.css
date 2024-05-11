@@ -16,10 +16,6 @@ body{
 /* BACKGROUND | HEADER */
 
 #header-bg{
-  background-image: url('../assets/header.png');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: absolute;
   z-index:-1;
   width: 100%;
@@ -88,8 +84,9 @@ h5{
   font-family: Montserrat;
   font-size: clamp(15px, 4vw, 20px);
   color: #F7F6FE;
-  font-weight: 600;
+  font-weight: 550;
   margin:0;
+  line-height: 150%;
 }
 
 p{
@@ -131,12 +128,12 @@ p{
 }
 
 .nav-link:active {
-  color: #6865FF;
+  color: #211E43;
 }
 
 .nav-link:focus {
-  color: #6865FF;
-  background-color: rgba(158, 158, 158, 0.155);
+  color: #211E43;
+  background-color: rgba(230, 230, 230, 0.297);
 }
 
 /* BUTTONS | CTA */
@@ -145,14 +142,11 @@ p{
   background-color: #6865FF;
   color: #F7F6FE;
   font-family: Montserrat;
-  font-size: clamp(15px, 4vw, 20px);
-  font-weight: 600;
+  font-size: clamp(15px, 1vw, 20px);
+  font-weight: 550;
   line-height: 100%;
   border: none;
   margin:0;
-  padding-inline: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .cta:hover{
