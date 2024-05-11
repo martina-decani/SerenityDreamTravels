@@ -41,7 +41,7 @@
   <header class="vh-100 d-flex flex-column align-items-center align-items-lg-end p-5">
     
     <div class="d-flex w-100 flex-fill gap-3 flex-column align-items-center align-items-lg-start justify-content-center">
-      <div class="tag-button glass rounded-pill px-4 py-2 text-center">
+      <div class="location-tag glass rounded-pill px-4 py-2 text-center">
         <h5>Viaggi romantici</h5>
       </div>
       <h1 class="text-center text-lg-start">Fuga d'amore spaziale</h1>
@@ -50,17 +50,17 @@
 
     <div class="w-75 d-flex flex-column flex-lg-row gap-3">
       
-      <div id="info" class="flex-fill glass gap-2 d-flex flex-row justify-content-center align-items-center">
+      <div id="info" class="rounded flex-fill glass gap-2 d-flex flex-row justify-content-center align-items-center">
         <h3>0000</h3>
         <img style="width: 20px" src="../assets/value.png" alt="icona valuta">
       </div>
       
-      <div id="info" class="flex-fill glass gap-2 d-flex flex-row justify-content-center align-items-center">
+      <div id="info" class="rounded flex-fill glass gap-2 d-flex flex-row justify-content-center align-items-center">
         <h3>00</h3>
         <h5>giorni</h5>
       </div>
     
-      <button id="info" class="flex-fill">
+      <button id="info" class="rounded cta flex-fill">
         Prenota
       </button>
       
@@ -105,12 +105,12 @@
         </div>
       </div>
 
-      <button style="width:80px; height:80px;" class="carousel-control-prev rounded-circle ms-5 top-50 start-0 translate-middle-y" type="button" data-bs-target="#activity-carousel" data-bs-slide="prev">
+      <button class="carousel-control-prev ms-5 top-50 start-0 translate-middle-y" type="button" data-bs-target="#activity-carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
 
-      <button style="width:80px; height:80px;" class="carousel-control-next rounded-circle me-5 top-50 end-0 translate-middle-y" type="button" data-bs-target="#activity-carousel" data-bs-slide="next">
+      <button class="carousel-control-next me-5 top-50 end-0 translate-middle-y" type="button" data-bs-target="#activity-carousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -184,13 +184,6 @@
 
 
   <div id="footer"></div>
-  
-  <!-- SCRIPT NAVBAR -->
-  <script>
-    let item = document.querySelector(".icon-hamburger");
-    item.addEventListener("click", function () {
-      document.body.classList.toggle("menu-open");
-    });
-  </script>
+
 </body>
 </html>
