@@ -80,7 +80,7 @@ body, html{   box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ b
 
 
     #hero {
-        background-image: url('img/ddd.png');
+        background-image: url('../assets/heroimagegiftshop.png');
         background-size: cover; /* L'immagine viene ridimensionata per coprire l'intera area del contenitore mantenendo le proporzioni */
         background-position: center; /* Centra l'immagine nell'area del contenitore */
         width: 100%;
@@ -119,11 +119,6 @@ body, html{   box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ b
         margin-top: 30px;
 
     }
-
-
-
-
-
 
 
 .text{
