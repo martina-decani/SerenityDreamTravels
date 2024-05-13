@@ -23,7 +23,7 @@ const cardData = [
   },
   {
     text: "1000",
-    image: "../assets/gift6.png",
+    image: "../assets/gift1.png",
   },
 ];
 
