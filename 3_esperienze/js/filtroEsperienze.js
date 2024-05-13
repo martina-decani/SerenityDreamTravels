@@ -20,6 +20,7 @@ const cardData = [
     type: "Romantico",
     text: "Un viaggio romantico attraverso la vastità della Via Lattea, con crociere serali per osservare le splendide nebulose galattiche.",
     image: "../assets/img_crociera.png",
+    back:  "../assets/cardback.png",
   },
   {
     title: "Campeggio stellare",
@@ -27,6 +28,7 @@ const cardData = [
     type: "Avventura",
     text: "Un'avventura emozionante sulla Luna, con tende spaziali e escursioni notturne per esplorare la superficie lunare.",
     image: "../assets/img_campeggio.png",
+    back:  "../assets/cardback.png",
   },
   {
     title: "Safari Astrale",
@@ -34,6 +36,7 @@ const cardData = [
     type: "Famiglia",
     text: "Un'esperienza ideale per le famiglie su Tatooine, con safari interstellari per osservare creature aliene e paesaggi spettacolari.",
     image: "../assets/img_safari.png",
+    back:  "../assets/cardback.png",
   },
   {
     title: "SPA Galattica",
@@ -41,6 +44,7 @@ const cardData = [
     type: "Romantico",
     text: "Un rifugio romantico su Santorinius, dove le coppie possono rilassarsi e rigenerarsi con trattamenti spa esclusivi sotto il cielo stellato.",
     image: "../assets/img_spa.png",
+    back:  "../assets/cardback.png",
   
   },
   {
@@ -49,6 +53,7 @@ const cardData = [
     type: "Famiglia",
     text: "Un'esperienza divertente per tutta la famiglia a Starland, con giostre spaziali, spettacoli interattivi e esibizioni di fuochi d'artificio cosmici.",
     image: "../assets/img_parco.png",
+    back:  "../assets/cardback.png",
   },
   {
     title: "Yoga interstellare",
@@ -56,6 +61,7 @@ const cardData = [
     type: "Romantico",
     text: "Un ritiro romantico a Serenitopia, dove le coppie possono praticare yoga sotto la guida di maestri interstellari e connettersi con l'universo.",
     image: "../assets/img_yoga.png",
+    back:  "../assets/cardback.png",
   },
   {
     title: "Fuga d'amore stellare",
@@ -63,6 +69,7 @@ const cardData = [
     type: "Romantico",
     text: "Un'avventura romantica a Etherealis, con serate sotto le stelle, cene gourmet e suite spaziali per un'esperienza indimenticabile.",
     image: "../assets/img_fuga.png",
+    back:  "../assets/cardback.png",
   },
   {
     title: "Settimana bianca lattea",
@@ -70,6 +77,7 @@ const cardData = [
     type: "Avventura",
     text: "Un'esperienza avventurosa a Bumbafria, con sport invernali sulla neve e panorami mozzafiato della Via Lattea.",
     image: "../assets/img_neve.png",
+    back:  "../assets/cardback.png",
   },
 ];
 
@@ -107,7 +115,7 @@ const filterExperience = (planet, type) => {
             <h2 class="card-text">${card.planet}</h2>
           </div>
         </div>
-        <div class="back" style="background-image: >
+        <div class="back" style="background-image: url('${card.back}')">
           <div class="inner">
             <p class="card-text">${card.text}</p>
             <a href="#" class="btn btn-secondary">Scopri di più</a>
