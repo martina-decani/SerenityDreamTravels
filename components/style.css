@@ -142,7 +142,7 @@ p{
   background-color: #6865FF;
   color: #F7F6FE;
   font-family: Montserrat;
-  font-size: clamp(15px, 3vw, 20px);
+  font-size: clamp(15px, 1vw, 20px);
   font-weight: 550;
   line-height: 100%;
   border: none;
