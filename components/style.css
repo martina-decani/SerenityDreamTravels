@@ -146,7 +146,7 @@ p{
   font-weight: 550;
   line-height: 100%;
   border: none;
-  margin:0;
+  margin: 0;
 }
 
 .cta:hover{
@@ -179,7 +179,6 @@ p{
 
 .social-btn{
   fill:#211E43;
-;
 }
 
 .social-btn:hover{
