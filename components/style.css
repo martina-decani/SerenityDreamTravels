@@ -29,75 +29,6 @@ body{
   max-width:100%;
 }
 
-/* FONTS */
-#home-title {
-    position: relative;
-    color: #F7F6FE;
-    font-family: Against;
-    font-size: clamp(15px, 12vw, 70px);
-    text-align: center;
-}
-
-.navbar-title {
-  font-family: against;
-  font-size: 20px;
-  color: #F7F6FE;
-}
-
-h1{
-  color: #F7F6FE;
-  font-family: Against;
-  font-size: clamp(15px, 7vw, 70px);
-  font-weight: 300;
-  line-height: 150%;
-  margin:0;
-}
-
-h2{
-  color: #211E43;
-  font-family: Montserrat;
-  font-size: clamp(15px, 6vw, 35px);
-  font-weight: 550;
-  line-height: 100%;
-  margin:0;
-}
-
-h3{
-  color: #F7F6FE;
-  font-family: Montserrat;
-  font-size: clamp(15px, 7vw, 35px);
-  font-weight: 550;
-  line-height: 100%;
-  margin:0;
-}
-
-h4{ /* pretitles */
-  color: #F7F6FE;
-  font-family: Montserrat;
-  font-size: clamp(15px, 4vw, 30px);
-  line-height: 150%;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin:0;
-}
-
-h5{
-  font-family: Montserrat;
-  font-size: clamp(15px, 4vw, 20px);
-  color: #F7F6FE;
-  font-weight: 550;
-  margin:0;
-  line-height: 150%;
-}
-
-p{
-  font-family: Montserrat;
-  font-size: clamp(13px, 1vw, 15px);
-  color: #211E43;
-  font-weight: 400;
-  margin:0;
-}
-
 /* BUTTONS */
 
 /* BUTTONS | BURGER MENU */
@@ -140,14 +71,17 @@ p{
 /* BUTTONS | CTA */
 
 .cta{
-  background-color: #6865FF;
-  color: #F7F6FE;
   font-family: Montserrat;
-  font-size: clamp(15px, 3vw, 30px);
+  font-size: clamp(20px, 3vw, 25px);
   font-weight: 550;
   line-height: 100%;
+  background-color: #6865FF;
+  color: #F7F6FE;
   border: none;
-  margin: 0;
+  border-radius: 5px;
+  padding-inline:30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cta:hover{
@@ -164,16 +98,30 @@ p{
   color: #3331b7;
 }
 
+.location-tag{
+  padding-inline:20px;
+  padding-top:12px;
+  padding-bottom: 12px;
+  border-radius: 100px;
+  font-size: clamp(15px, 2vw, 20px);
+  font-family: montserrat;
+  font-weight: 600;
+  color: #F7F6FE;
+  margin:0;
+  line-height: 100%;
+}
+
 .location-tag:hover{
-  background-color: #6865FF;
+  background-color: rgba(255, 255, 255, 0.205);
 }
 
 .location-tag:active{
-  background-color: #3331b7;
+  background-color: #F7F6FE;
+  color: #6865FF;
 }
 
 .location-tag:focus{
-  background-color: #3331b7;
+  background-color: #F7F6FE;
 }
 
 /* BUTTONS | FOOTER */
@@ -191,7 +139,91 @@ p{
 }
 
 ::placeholder{
-  color: #211E43;
+  font-family: Montserrat;
+  font-size: 15px;
+  margin:0;
+  line-height: 100%;
 }
 
+
+
+
+
+
+/* FONTS */
+#home-title {
+    position: relative;
+    color: #F7F6FE;
+    font-family: Against;
+    font-size: clamp(15px, 12vw, 70px);
+    text-align: center;
+}
+
+.navbar-title {
+  font-family: against;
+  font-size: 20px;
+  color: #F7F6FE;
+}
+
+h1{
+  color: #F7F6FE;
+  font-family: Against;
+  font-size: clamp(15px, 8vw, 70px);
+  font-weight: 300;
+  line-height: 150%;
+  margin:0;
+}
+
+h2{
+  color: #211E43;
+  font-family: against;
+  font-size: clamp(15px, 6vw, 35px);
+  font-weight: 500;
+  line-height: 100%;
+  margin:0;
+}
+
+h3{
+  color: #F7F6FE;
+  font-family: Montserrat;
+  font-size: clamp(15px, 7vw, 35px);
+  font-weight: 550;
+  line-height: 100%;
+  margin:0;
+}
+
+h4{ /* pretitles */
+  color: #F7F6FE;
+  font-family: Montserrat;
+  font-size: clamp(15px, 4vw, 30px);
+  line-height: 150%;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin:0;
+}
+
+h5{
+  font-family: Montserrat;
+  font-size: clamp(15px, 4vw, 20px);
+  color: #F7F6FE;
+  font-weight: 600;
+  margin:0;
+  line-height: 150%;
+}
+
+p{
+  font-family: Montserrat;
+  font-size: clamp(13px, 1vw, 15px);
+  color: #211E43;
+  font-weight: 400;
+  margin:0;
+}
+
+.small{
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #211E43;
+  font-weight: 400;
+  margin:0;
+}
 
