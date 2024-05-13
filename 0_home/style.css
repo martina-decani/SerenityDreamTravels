@@ -1,27 +1,4 @@
 
-/* START NAVBAR */
-/* ! Reset */
-body, html{    box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }ol,ul{list-style-type: none;}img{height: auto;}a{text-decoration:none}
-
-
-.logos{
-    display: none;
-}
-:root { --menu-bg: #1d1d1f; --menu-color: #fff; }
-
-.header{ background: linear-gradient(101deg, rgba(255, 255, 255, 0.30) 1.25%, rgba(255, 255, 255, 0.21) 99.35%); backdrop-filter: blur(5px); position: fixed; top:0;  left:0; z-index: 9999; width: 100%; padding: 10px 15px; }
-.header__content{max-width: 1200px;width: 100%;margin: 0 auto; display: flex;justify-content: space-between;}
-.header__logo{
-    margin-right: auto;
-}
-.header__logo,
-.header__quick{display: flex; align-items: center;color:var(--menu-color)}
-
-.header__menu{padding: 0;margin: 0;}
-.header__menu li{display: inline-block;}
-.header__menu li a{color:var(--menu-color); display: block;padding: 16px;  font-family: Montserrat; font-size: 20px; font-style: normal; font-weight: 500; line-height: normal;
-
-    }
 
 
 
