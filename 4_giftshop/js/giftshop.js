@@ -6,15 +6,15 @@ const cardData = [
     image:"../assets/gift1.png",
   },
   {
-    text: "200"
+    text: "200",
     image: "../assets/gift2.png",
   },
   {
-    text: "300"
+    text: "300",
     image: "../assets/gift3.png",
   },
   {
-    text: "500"
+    text: "500",
     image: "../assets/gift4.png"
   },
   {
