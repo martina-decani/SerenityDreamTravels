@@ -15,7 +15,7 @@ const cardData = [
   },
   {
     text: "500"
-    image: "../assets/gift4.png",
+    image: "../assets/gift4.png"
   },
   {
     text: "800",
