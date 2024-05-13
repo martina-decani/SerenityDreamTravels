@@ -51,21 +51,25 @@ body{
   font-size: 15px;
   font-weight: 500;
   line-height: 100%;
-  color: white;
+  color: #F7F6FE;
   margin:0;
+  background-color: rgba(0, 0, 0, 0.128);
+  backdrop-filter: blur(10px);
 }
 
 .nav-link:hover {
-  color: #6865FF;
+  color: #F7F6FE;
+  background-color: #6865FF;
 }
 
 .nav-link:active {
-  color: #211E43;
+  color: #6865FF;
+  background-color: #F7F6FE;
 }
 
 .nav-link:focus {
-  color: #211E43;
-  background-color: rgba(230, 230, 230, 0.297);
+  color: #6865FF;
+  background-color: #F7F6FE;
 }
 
 /* BUTTONS | CTA */
@@ -165,7 +169,7 @@ body{
   color: #F7F6FE;
 }
 
-h1{
+h1{ /* page title */
   color: #F7F6FE;
   font-family: Against;
   font-size: clamp(15px, 8vw, 70px);
@@ -174,7 +178,7 @@ h1{
   margin:0;
 }
 
-h2{
+h2{ /* against title */
   color: #211E43;
   font-family: against;
   font-size: clamp(15px, 6vw, 35px);
@@ -183,19 +187,20 @@ h2{
   margin:0;
 }
 
-h3{
+h3{ /* montserrat title */
   color: #F7F6FE;
   font-family: Montserrat;
-  font-size: clamp(15px, 7vw, 35px);
-  font-weight: 550;
+  font-size: clamp(15px, 6vw, 35px);
+  font-weight: 600;
   line-height: 100%;
   margin:0;
 }
 
-h4{ /* pretitles */
+
+h4{ /* pretitle */
   color: #F7F6FE;
   font-family: Montserrat;
-  font-size: clamp(15px, 4vw, 30px);
+  font-size: clamp(15px, 3vw, 25px);
   line-height: 150%;
   font-weight: 300;
   text-transform: uppercase;

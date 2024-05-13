@@ -2,48 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
- <!--- Css STYLESHEET-->
- <link rel="stylesheet" href="../components/style.css">
- <link rel="stylesheet" href="styleindex.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Homepage</title>
 
   <!-- Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-   <!-- Bootstrap -->
-   <link href="https:/cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   <script src="https:/cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link href="https:/cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https:/cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-  <!--- google font link-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-    rel="stylesheet"
-  />
- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Stylesheets -->
+ <link rel="stylesheet" href="../components/style.css">
+ <link rel="stylesheet" href="styleindex.css">
+
+  <!-- Font | Against -->
+  <link href="https:/fonts.cdnfonts.com/css/against-2" rel="stylesheet">
+  <!-- Font | Montserrat -->
+  <link rel="preconnect" href="https:/fonts.googleapis.com">
+  <link rel="preconnect" href="https:/fonts.gstatic.com" crossorigin>
+  <link href="https:/fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- - preload images-->
   <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-<!-- Compontents -->
-<script>
-  $(document).ready(function() {
-  $('#footer').load('../components/footer.html');
-  $('#navbar').load('../components/navbar.html');
+  <!-- Compontents -->
+  <script> 
+    $(document).ready(function() {
+      $('#footer').load('../components/footer.html');
+      $('#navbar').load('../components/navbar.html');
     });
   </script>
 
-
 </head>
+
 <body>
 
   <div id="navbar"></div>
@@ -51,13 +44,13 @@
 <!-- START PARALLAX -->
   <div id="parallax">
     <section id="top">
-        <img src="img/header.png" id="bg" />
+        <img src="../assets/index-header.png" id="bg" />
         <h2 id="home-title">Serenity Dream <br class="bro">Travel</h2>
 
         <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" />
         <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" />
-        <img src="img/cloudleft.png" id="mountain_left" />
-        <img src="img/cloudright.png" id="mountain_right" />
+        <img src="../assets/cloudleft.png" id="mountain_left" />
+        <img src="../assets/cloudright.png" id="mountain_right" />
       </section>
 
   </div>
@@ -72,7 +65,7 @@
   </div>
 
   <div class="hero_img">
-    <img class="img-res"  src="img/heroimg.png" alt="hero">
+    <img class="img-res"  src="../assets/heroimg.png" alt="hero">
   </div>
 
 </div>
@@ -132,7 +125,7 @@
   <div class="container4">
 
       <img
-        src="img/feat.png" alt="feature banner"
+        src="../assets/feat.png" alt="feature banner"
         class="img-res"
       />
 
