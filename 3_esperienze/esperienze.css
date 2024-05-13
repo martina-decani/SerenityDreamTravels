@@ -4,9 +4,6 @@
 }
 
 #hero-image {
-  background-image: url('../assets/sfondo.png');
-  background-size: cover;
-  background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,7 +14,7 @@
 
 h1 {
   font-family: "against";
-  font-size: 60px;
+  font-size: 80px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
