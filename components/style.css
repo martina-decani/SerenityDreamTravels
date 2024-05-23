@@ -232,3 +232,6 @@ p{
   margin:0;
 }
 
+.navbar a.active {
+  color: red !important; 
+}

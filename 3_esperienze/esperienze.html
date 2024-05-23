@@ -30,13 +30,21 @@
   <!-- JQUERY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <!-- COMPONENTS -->
-  <script> 
-    $(document).ready(function() {
-    $('#footer').load('../components/footer.html');
-    $('#navbar').load('../components/navbar.html');
+  <script>
+    $(document).ready(function () {
+      $('#footer').load('../components/footer.html');
+      $("#navbar").load("../components/navbar.html", function () {
+        var currentPath = window.location.pathname.replace('.html', '');
+        $("#navbar a").each(function () {
+          var linkPath = new URL(this.href).pathname.replace('.html', '');
+          if (linkPath === currentPath) {
+            $(this).addClass("active");
+          }
+        });
       });
+    });
   </script>
-  </head>
+</head>
 
 <body>
   <!-- HEADER BACKGROUND -->
@@ -44,8 +52,8 @@
   <img id="header-bg" class="object-fit-cover" src="../assets/sfondo.png">
 
   <!-- NAVBAR -->
- <div id="navbar"></div>
- 
+  <div id="navbar"></div>
+
   <!-- HEADER -->
   <div id="hero-image">
     <div class="container">
@@ -60,31 +68,31 @@
   <div class="filters container mx-auto text-center mt-5 glassmorphism">
     <div class="row justify-content-center"></div>
     <div class="d-flex flex-lg-row flex-column align-items-lg-end  align-items-center justify-content-center gap-3">
-      <div >
+      <div>
         <label for="checkin" class="form-label">CHECK-IN</label>
         <input type="date" style="height:39px;" class="form-control" id="checkin" name="checkin" />
       </div>
 
-      <div >
+      <div>
         <label for="checkout" class="form-label">CHECK-OUT</label>
         <input type="date" style="height:39px;" class="form-control" id="checkout" name="checkout" />
       </div>
 
-      <div >
+      <div>
         <label for="pianeta" class="form-label">PIANETA</label>
         <select class="form-select" style="height:39px;" id="select-pianeta" name="pianeta">
           <option value="" selected>Tutti</option>
         </select>
       </div>
 
-      <div >
+      <div>
         <label for="tipoViaggio" class="form-label">TIPO DI VIAGGIO</label>
         <select class="form-select" style="height:39px;" id="select-tipo" name="tipoViaggio">
           <option value="" selected>Tutti</option>
         </select>
       </div>
 
-      <div >
+      <div>
         <label for="adulti" class="form-label">ADULTI</label>
         <div style="background-color:white;" class="input-group p-1 ">
           <button class="btn rounded-circle" type="button" id="btnMinusAdulti" style="background-color: #21cccc">
@@ -98,7 +106,7 @@
         </div>
       </div>
 
-      <div >
+      <div>
         <label for="Piccoli" class="form-label flex-fill ">PICCOLI</label>
         <div style="background-color:white" class="input-group p-1">
           <button class="btn rounded-circle" type="button" id="btnMinusPiccoli" style="background-color: #21cccc">
@@ -124,7 +132,7 @@
 
   <div class="card-grid" id="card-list"></div>
 
-<!-- FOOTER -->
+  <!-- FOOTER -->
   <div id="footer"></div>
 </body>
 
