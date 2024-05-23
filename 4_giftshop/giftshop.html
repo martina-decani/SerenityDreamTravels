@@ -28,11 +28,19 @@
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <!-- COMPONENTS -->
-    <script> 
-      $(document).ready(function() {
-      $('#footer').load('../components/footer.html');
-      $('#navbar').load('../components/navbar.html');
+    <script>
+      $(document).ready(function () {
+        $('#footer').load('../components/footer.html');
+        $("#navbar").load("../components/navbar.html", function () {
+          var currentPath = window.location.pathname.replace('.html', '');
+          $("#navbar a").each(function () {
+            var linkPath = new URL(this.href).pathname.replace('.html', '');
+            if (linkPath === currentPath) {
+              $(this).addClass("active");
+            }
+          });
         });
+      });
     </script>
     </head>
 <body>
