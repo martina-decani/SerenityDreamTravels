@@ -26,10 +26,18 @@
   <link href="https:/fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- Compontents -->
-  <script> 
-    $(document).ready(function() {
+  <script>
+    $(document).ready(function () {
       $('#footer').load('../components/footer.html');
-      $('#navbar').load('../components/navbar.html');
+      $("#navbar").load("../components/navbar.html", function () {
+        var currentPath = window.location.pathname.replace('.html', '');
+        $("#navbar a").each(function () {
+          var linkPath = new URL(this.href).pathname.replace('.html', '');
+          if (linkPath === currentPath) {
+            $(this).addClass("active");
+          }
+        });
+      });
     });
   </script>
   
