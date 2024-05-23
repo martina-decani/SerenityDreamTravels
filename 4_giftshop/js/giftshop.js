@@ -33,21 +33,23 @@ const cardData = [
 
   cardListElement.innerHTML = "";
 
-  cardData
-    .forEach((card) => {
-      cardListElement.innerHTML += `
-      <div class="card-container">
-        <div class="front" style="background-image: url('${card.image}')">
-          <div class="inner">
-          </div>
+  cardData.forEach((card) => {
+    cardListElement.innerHTML += `
+    <div class="card-container">
+      <div class="front" style="background-image: url('${card.image}')">
+        <div class="inner">
+          <img src="../assets/logo.svg" class="card-logo" alt="logo" class="logo">
         </div>
-        <div class="back" style="background-image: >
-          <div class="inner">
+      </div>
+      <div class="back" style="background-image: url('../../assets/cardback.png')">
+        <div class="inner">
+          <div class="card-text-container">
             <p class="card-text">${card.text}</p>
-            <a href="#" class="btn btn-secondary">Scopri di più</a>
+            <img src="../../assets/iconavaluta.svg" class="currency-icon">
           </div>
         </div>
       </div>
-      `;
-    });
+    </div>
+    `;
+  });
 
