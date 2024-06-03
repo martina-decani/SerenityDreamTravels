@@ -9,6 +9,7 @@
     height: 120%;
 }
 
+
 .cta {
     color:white;
     background-color: #6865FF;
@@ -111,12 +112,18 @@ p{
 }
 
 
-
+.ciao{
+  background-color: rgba(158, 158, 158, 0.155);
+  backdrop-filter: blur(10px);
+  border:none;
+}
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .intro {
-    background: #f45b69;
+  background-color: rgba(158, 158, 158, 0.155);
+  backdrop-filter: blur(10px);
+  border:none;
     padding: 100px 0;
   }
 
@@ -159,7 +166,9 @@ p{
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #f45b69;
+  background-color: rgba(158, 158, 158, 0.155);
+  backdrop-filter: blur(10px);
+  border:none;
 }
 
 .timeline ul li div::before {
@@ -178,7 +187,7 @@ p{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #f45b69 transparent transparent;
+  border-color: transparent #6865FF transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -188,7 +197,7 @@ p{
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #f45b69;
+  border-color: transparent transparent transparent #6865FF;
 }
 
 time {
@@ -198,6 +207,19 @@ time {
   margin-bottom: 8px;
 }
 
+#tours_text{
+  font-family: against;
+    font-size: clamp(60px, 5vw, 80px);
+    font-weight: 400;
+    line-height: 120%;
+   color: #F7F6FE;
+    text-align:center;
+}
+
+
+
+
+
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -206,7 +228,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #f45b69;
+  background: #6865FF;
 }
 
 .timeline ul li div {
@@ -255,7 +277,7 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #f45b69 transparent transparent;
+    border-color: transparent #6865FF transparent transparent;
   }
 }
 
@@ -318,21 +340,6 @@ time {
   }
 }
 
-/* FOOTER STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.page-footer {
-  position: fixed;
-  right: 0;
-  bottom: 20px;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  color: black;
-  background: rgba(255, 255, 255, 0.65);
+.center{
+  text-align: center;
 }
-
-.page-footer a {
-  display: flex;
-  margin-left: 4px;
-}
-
