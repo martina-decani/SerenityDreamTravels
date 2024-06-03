@@ -5,7 +5,7 @@
 }
 
 .descrizione {
-    padding: 70px;
+    padding: 80px;
 }
 
 .picture {
@@ -39,20 +39,48 @@
 .card h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.info h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: semi-bold;
 }
 
 .card p {
     font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card button {
-    padding: 10px 20px;
+    font-family: Montserrat;
     font-size: 18px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
+    font-weight: 500;
+    line-height: 100%;
+    background-color: #6865FF;
+    color: #F7F6FE;
     border: none;
-    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card button:hover{
+    background-color: #3331b7;
+}
+  
+.card button:active{
+    background-color: #F7F6FE;
+    color: #3331b7;
+}
+
+.card button:focus{
+    background-color: #F7F6FE;
+    color: #3331b7;
 }
 
 .item {
@@ -74,13 +102,16 @@
 }
 
 .item .info {
-
     border-radius: 10px;
     padding-top: 8px;
     border: black;
 }
 
 .box span {
-    font-weight: bold;
-    font-size: 25px;
+    color: black;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0;
 }

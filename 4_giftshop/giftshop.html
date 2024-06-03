@@ -28,42 +28,47 @@
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <!-- COMPONENTS -->
-    <script> 
-      $(document).ready(function() {
-      $('#footer').load('../components/footer.html');
-      $('#navbar').load('../components/navbar.html');
+    <script>
+      $(document).ready(function () {
+        $('#footer').load('../components/footer.html');
+        $("#navbar").load("../components/navbar.html", function () {
+          var currentPath = window.location.pathname.replace('.html', '');
+          $("#navbar a").each(function () {
+            var linkPath = new URL(this.href).pathname.replace('.html', '');
+            if (linkPath === currentPath) {
+              $(this).addClass("active");
+            }
+          });
         });
+      });
     </script>
     </head>
 <body>
 
 <!-- HEADER BACKGROUND -->
-<div id="header-bg">
-  <img class="object-fit-cover h-100" src="../assets/heroimagegiftshop.png">
-</div>
+
+<img id="header-bg" class="object-fit-cover h-100" src="../assets/heroimagegiftshop.png">
 
 <!-- NAVBAR -->
 <div id="navbar"></div>
 
 <!-- HEADER -->
-    <section id="hero-image">
-<div class="hero_text">
-        <h1>Gift shop</h1>
-        <h2>Gift cards e Smartbox per viaggi intergalattici, dove ogni scatola è un portale<br> per esperienze spaziali uniche nel loro genere.</h2>
-    </div>
-    </section>
+<div id="hero-image">
+  <div class="container">
+    <h1 class="display-1 mb-4">Gift Shop</h1>
+    <h5>
+      Azzera la Gravità, Moltiplica le Emozioni: Solo con Serenity DreamTravel
+    </h5>
+    <img src="../assets/cardsherogiftshop.png">
+  </div>
+</div>
 
 <!-- CARDS -->
 
 <div class="card-grid" id="card-list"></div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<script>
-  let item = document.querySelector(".icon-hamburger");
-  item.addEventListener("click", function () {
-    document.body.classList.toggle("menu-open");
-  });
-</script>
+<!-- FOOTER -->
+<div id="footer"></div>
 </body>
 </html>

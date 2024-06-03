@@ -16,9 +16,9 @@ body{
 /* BACKGROUND | HEADER */
 
 #header-bg{
-  position: absolute;
+  position:absolute;
   z-index:-1;
-  width: 100%;
+  width:100%;
   height: 120%;
 }
 
@@ -26,75 +26,7 @@ body{
 
 #info{
   height:65px;
-}
-
-/* FONTS */
-#home-title {
-    position: relative;
-    color: #F7F6FE;
-    font-family: Against;
-    font-size: clamp(15px, 12vw, 70px);
-    text-align: center;
-}
-
-.navbar-title {
-  font-family: against;
-  font-size: 20px;
-  color: #F7F6FE;
-}
-
-h1{
-  color: #F7F6FE;
-  font-family: Against;
-  font-size: clamp(15px, 7vw, 70px);
-  font-weight: 300;
-  line-height: 150%;
-  margin:0;
-}
-
-h2{
-  color: #211E43;
-  font-family: Montserrat;
-  font-size: clamp(15px, 6vw, 35px);
-  font-weight: 550;
-  line-height: 100%;
-  margin:0;
-}
-
-h3{
-  color: #F7F6FE;
-  font-family: Montserrat;
-  font-size: clamp(15px, 7vw, 35px);
-  font-weight: 550;
-  line-height: 100%;
-  margin:0;
-}
-
-h4{ /* pretitles */
-  color: #F7F6FE;
-  font-family: Montserrat;
-  font-size: clamp(15px, 4vw, 30px);
-  line-height: 150%;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin:0;
-}
-
-h5{
-  font-family: Montserrat;
-  font-size: clamp(15px, 4vw, 20px);
-  color: #F7F6FE;
-  font-weight: 550;
-  margin:0;
-  line-height: 150%;
-}
-
-p{
-  font-family: Montserrat;
-  font-size: clamp(13px, 1vw, 15px);
-  color: #211E43;
-  font-weight: 400;
-  margin:0;
+  max-width:100%;
 }
 
 /* BUTTONS */
@@ -119,34 +51,41 @@ p{
   font-size: 15px;
   font-weight: 500;
   line-height: 100%;
-  color: white;
+  color: #F7F6FE;
   margin:0;
+  background-color: rgba(0, 0, 0, 0.128);
+  backdrop-filter: blur(10px);
 }
 
 .nav-link:hover {
-  color: #6865FF;
+  color: #F7F6FE;
+  background-color: #6865FF;
 }
 
 .nav-link:active {
-  color: #211E43;
+  color: #6865FF;
+  background-color: #F7F6FE;
 }
 
 .nav-link:focus {
-  color: #211E43;
-  background-color: rgba(230, 230, 230, 0.297);
+  color: #6865FF;
+  background-color: #F7F6FE;
 }
 
 /* BUTTONS | CTA */
 
 .cta{
-  background-color: #6865FF;
-  color: #F7F6FE;
   font-family: Montserrat;
-  font-size: clamp(15px, 1vw, 20px);
+  font-size: clamp(18px, 3vw, 20px);
   font-weight: 550;
   line-height: 100%;
+  background-color: #6865FF;
+  color: #F7F6FE;
   border: none;
-  margin: 0;
+  border-radius: 5px;
+  padding-inline:30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cta:hover{
@@ -163,16 +102,30 @@ p{
   color: #3331b7;
 }
 
+.location-tag{
+  padding-inline:20px;
+  padding-top:12px;
+  padding-bottom: 12px;
+  border-radius: 100px;
+  font-size: clamp(15px, 2vw, 20px);
+  font-family: montserrat;
+  font-weight: 600;
+  color: #F7F6FE;
+  margin:0;
+  line-height: 100%;
+}
+
 .location-tag:hover{
-  background-color: #6865FF;
+  background-color: rgba(255, 255, 255, 0.205);
 }
 
 .location-tag:active{
-  background-color: #3331b7;
+  background-color: #F7F6FE;
+  color: #6865FF;
 }
 
 .location-tag:focus{
-  background-color: #3331b7;
+  background-color: #F7F6FE;
 }
 
 /* BUTTONS | FOOTER */
@@ -190,7 +143,95 @@ p{
 }
 
 ::placeholder{
-  color: #211E43;
+  font-family: Montserrat;
+  font-size: 15px;
+  margin:0;
+  line-height: 100%;
 }
 
 
+
+
+
+
+/* FONTS */
+#home-title {
+    position: relative;
+    color: #F7F6FE;
+    font-family: Against;
+    font-size: clamp(15px, 12vw, 70px);
+    text-align: center;
+}
+
+.navbar-title {
+  font-family: against;
+  font-size: 20px;
+  color: #F7F6FE;
+}
+
+h1{ /* page title */
+  color: #F7F6FE;
+  font-family: Against;
+  font-size: clamp(15px, 8vw, 70px);
+  font-weight: 300;
+  line-height: 150%;
+  margin:0;
+}
+
+h2{ /* against title */
+  color: #211E43;
+  font-family: against;
+  font-size: clamp(15px, 6vw, 35px);
+  font-weight: 500;
+  line-height: 100%;
+  margin:0;
+}
+
+h3{ /* montserrat title */
+  color: #F7F6FE;
+  font-family: Montserrat;
+  font-size: clamp(15px, 6vw, 35px);
+  font-weight: 600;
+  line-height: 100%;
+  margin:0;
+}
+
+
+h4{ /* pretitle */
+  color: #F7F6FE;
+  font-family: Montserrat;
+  font-size: clamp(15px, 3vw, 25px);
+  line-height: 150%;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin:0;
+}
+
+h5{
+  font-family: Montserrat;
+  font-size: clamp(15px, 4vw, 20px);
+  color: #F7F6FE;
+  font-weight: 600;
+  margin:0;
+  line-height: 150%;
+}
+
+p{
+  font-family: Montserrat;
+  font-size: clamp(13px, 1vw, 15px);
+  color: #211E43;
+  font-weight: 400;
+  margin:0;
+}
+
+.small{
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #211E43;
+  font-weight: 400;
+  margin:0;
+}
+
+.navbar a.active {
+  color: red !important; 
+}
