@@ -87,13 +87,17 @@ const smartBoxListElement = document.getElementById("smart-box-list");
 smartBoxListElement.innerHTML = "";
 
 smartBoxData.forEach((box) => {
-  smartBoxListElement.innerHTML += `
+  let boxHTML = `
     <div>
-    <a href="${box.link}">
       <div class="box-image" style="background-image: url('${box.image}')">
         <div class="box-text"><h1>${box.text}</h1></div>
       </div>
       <div class="box-value"><p>${box.value}</p><img src="../../assets/iconavalutanera.svg" class="currency-iconn"></div>
-      </a>
     </div>`;
+
+  if (box.link) {
+    boxHTML = `<a href="${box.link}">${boxHTML}</a>`;
+  }
+
+  smartBoxListElement.innerHTML += boxHTML;
 });

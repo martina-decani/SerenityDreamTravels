@@ -110,6 +110,7 @@ const filterExperience = (planet, type) => {
       return type ? card.type === type : true;
     })
     .forEach((card) => {
+      let linkHTML = card.link ? `<a href="${card.link}" class="btn btn-secondary mt-3">Scopri di più</a>` : '';
       cardListElement.innerHTML += `
       <div class="card-container">
         <div class="front" style="background-image: url('${card.image}')">
@@ -121,7 +122,7 @@ const filterExperience = (planet, type) => {
         <div class="back" style="background-image: url('${card.back}')">
           <div class="inner">
             <p class="card-text">${card.text}</p>
-            <a href="${card.link}" class="btn btn-secondary mt-3">Scopri di più</a>
+            ${linkHTML}
           </div>
         </div>
       </div>
