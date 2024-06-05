@@ -39,7 +39,6 @@ const cardData = [
     text: "Un'avventura emozionante sulla Luna, con tende spaziali e escursioni notturne per esplorare la superficie lunare.",
     image: "../assets/img_campeggio.png",
     back:  "../assets/cardback.png",
-    link:"../3.1_viaggio/viaggio.html",
   },
 
   {
@@ -49,7 +48,6 @@ const cardData = [
     text: "Un rifugio romantico su Santorinius, dove le coppie possono rilassarsi e rigenerarsi con trattamenti spa esclusivi sotto il cielo stellato.",
     image: "../assets/img_spa.png",
     back:  "../assets/cardback.png",
-    link:"../3.2_tour/tour.html",
 
   },
   {
@@ -59,7 +57,6 @@ const cardData = [
     text: "Un'esperienza divertente per tutta la famiglia a Starland, con giostre spaziali, spettacoli interattivi e esibizioni di fuochi d'artificio cosmici.",
     image: "../assets/img_parco.png",
     back:  "../assets/cardback.png",
-    link:"../3.1_viaggio/viaggio.html",
   },
   {
     title: "Yoga interstellare",
@@ -68,7 +65,6 @@ const cardData = [
     text: "Un ritiro romantico a Serenitopia, dove le coppie possono praticare yoga sotto la guida di maestri interstellari e connettersi con l'universo.",
     image: "../assets/img_yoga.png",
     back:  "../assets/cardback.png",
-    link:"../3.2_tour/tour.html",
   },
   {
     title: "Settimana bianca lattea",
@@ -77,7 +73,6 @@ const cardData = [
     text: "Un'esperienza avventurosa a Bumbafria, con sport invernali sulla neve e panorami mozzafiato della Via Lattea.",
     image: "../assets/img_neve.png",
     back:  "../assets/cardback.png",
-    link:"../3.2_tour/tour.html",
   },
   {
     title: "Crociera tra le nebulose",
@@ -86,7 +81,6 @@ const cardData = [
     text: "Un viaggio romantico attraverso la vastità della Via Lattea, con crociere serali per osservare le splendide nebulose galattiche.",
     image: "../assets/img_crociera.png",
     back:  "../assets/cardback.png",
-    link:"../3.2_tour/tour.html",
   },
 ];
 
