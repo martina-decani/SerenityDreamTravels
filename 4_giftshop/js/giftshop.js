@@ -1,4 +1,4 @@
-// DATA
+// DATA GIFT CARDS
 
 const cardData = [
   {
@@ -27,7 +27,7 @@ const cardData = [
   },
 ];
 
-// FUNCTIONS
+// GIFTCARDS
 
   const cardListElement = document.getElementById("card-list");
 
@@ -53,3 +53,47 @@ const cardData = [
     `;
   });
 
+// SMART BOX DATA
+
+const smartBoxData = [
+  {
+    text: "Safari Astrale",
+    image: "../assets/img_safari.png",
+    value:"31.000",
+    link:"../3.2_tour/tour.html",
+  },
+  {
+    text: "Fuga d'amore spaziale",
+    image: "../assets/img_fuga.png",
+    value:"57.100",
+    link:"../3.1_viaggio/viaggio.html",
+  },
+  {
+    text: "Settimana Bianca Lattea",
+    image:"../assets/img_neve.png",
+    value:"10.000",
+  },
+  {
+    text: "Campeggio Stellare",
+    image: "../assets/img_campeggio.png",
+    value:"20.000",
+  }
+];
+
+
+// SMART BOX
+const smartBoxListElement = document.getElementById("smart-box-list");
+
+smartBoxListElement.innerHTML = "";
+
+smartBoxData.forEach((box) => {
+  smartBoxListElement.innerHTML += `
+    <div>
+    <a href="${box.link}">
+      <div class="box-image" style="background-image: url('${box.image}')">
+        <div class="box-text"><h1>${box.text}</h1></div>
+      </div>
+      <div class="box-value"><p>${box.value}</p><img src="../../assets/iconavalutanera.svg" class="currency-iconn"></div>
+      </a>
+    </div>`;
+});

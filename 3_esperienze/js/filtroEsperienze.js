@@ -15,7 +15,7 @@ const types = ["Romantico", "Avventura", "Famiglia", "Tour organizzati"];
 
 const cardData = [
   {
-    title: "Fuga d'amore stellare",
+    title: "Fuga d'amore spaziale",
     planet: "Etherealis",
     type: "Romantico",
     text: "Un'avventura romantica a Etherealis, con serate sotto le stelle, cene gourmet e suite spaziali per un'esperienza indimenticabile.",
