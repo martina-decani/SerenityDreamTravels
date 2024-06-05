@@ -11,16 +11,26 @@ const planets = [
   "Bumbafria",
 ];
 
-const types = ["Romantico", "Avventura", "Famiglia"];
+const types = ["Romantico", "Avventura", "Famiglia", "Tour organizzati"];
 
 const cardData = [
   {
-    title: "Crociera tra le nebulose",
-    planet: "Via Lattea",
+    title: "Fuga d'amore stellare",
+    planet: "Etherealis",
     type: "Romantico",
-    text: "Un viaggio romantico attraverso la vastità della Via Lattea, con crociere serali per osservare le splendide nebulose galattiche.",
-    image: "../assets/img_crociera.png",
+    text: "Un'avventura romantica a Etherealis, con serate sotto le stelle, cene gourmet e suite spaziali per un'esperienza indimenticabile.",
+    image: "../assets/img_fuga.png",
     back:  "../assets/cardback.png",
+    link:"../3.1_viaggio/viaggio.html",
+  },
+  {
+    title: "Safari Astrale",
+    planet: "Tatooine",
+    type: "Tour organizzati",
+    text: "Un'esperienza ideale per le famiglie su Tatooine, con safari interstellari per osservare creature aliene e paesaggi spettacolari.",
+    image: "../assets/img_safari.png",
+    back:  "../assets/cardback.png",
+    link:"../3.2_tour/tour.html",
   },
   {
     title: "Campeggio stellare",
@@ -30,14 +40,7 @@ const cardData = [
     image: "../assets/img_campeggio.png",
     back:  "../assets/cardback.png",
   },
-  {
-    title: "Safari Astrale",
-    planet: "Tatooine",
-    type: "Famiglia",
-    text: "Un'esperienza ideale per le famiglie su Tatooine, con safari interstellari per osservare creature aliene e paesaggi spettacolari.",
-    image: "../assets/img_safari.png",
-    back:  "../assets/cardback.png",
-  },
+  
   {
     title: "SPA Galattica",
     planet: "Santorinius",
@@ -64,19 +67,19 @@ const cardData = [
     back:  "../assets/cardback.png",
   },
   {
-    title: "Fuga d'amore stellare",
-    planet: "Etherealis",
-    type: "Romantico",
-    text: "Un'avventura romantica a Etherealis, con serate sotto le stelle, cene gourmet e suite spaziali per un'esperienza indimenticabile.",
-    image: "../assets/img_fuga.png",
-    back:  "../assets/cardback.png",
-  },
-  {
     title: "Settimana bianca lattea",
     planet: "Bumbafria",
     type: "Avventura",
     text: "Un'esperienza avventurosa a Bumbafria, con sport invernali sulla neve e panorami mozzafiato della Via Lattea.",
     image: "../assets/img_neve.png",
+    back:  "../assets/cardback.png",
+  },
+  {
+    title: "Crociera tra le nebulose",
+    planet: "Via Lattea",
+    type: "Romantico",
+    text: "Un viaggio romantico attraverso la vastità della Via Lattea, con crociere serali per osservare le splendide nebulose galattiche.",
+    image: "../assets/img_crociera.png",
     back:  "../assets/cardback.png",
   },
 ];
@@ -118,7 +121,7 @@ const filterExperience = (planet, type) => {
         <div class="back" style="background-image: url('${card.back}')">
           <div class="inner">
             <p class="card-text">${card.text}</p>
-            <a href="#" class="btn btn-secondary">Scopri di più</a>
+            <a href="${card.link}" class="btn btn-secondary">Scopri di più</a>
           </div>
         </div>
       </div>
