@@ -176,7 +176,7 @@ h1 {
     margin: auto;
     background-size: cover;
     overflow: hidden;
-    transition: background 0.3s ease, backdrop-filter 0.3s ease; /* Add transition for smooth effect */
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
 }
 
 .review_card::before {
@@ -190,6 +190,7 @@ h1 {
     backdrop-filter: blur(10px);
     opacity: 0;
     transition: opacity 0.3s ease;
+    border-radius: 1rem;
 }
 
 .review_card:hover::before {
