@@ -40,7 +40,7 @@ const cardData = [
     image: "../assets/img_campeggio.png",
     back:  "../assets/cardback.png",
   },
-  
+
   {
     title: "SPA Galattica",
     planet: "Santorinius",
@@ -48,7 +48,7 @@ const cardData = [
     text: "Un rifugio romantico su Santorinius, dove le coppie possono rilassarsi e rigenerarsi con trattamenti spa esclusivi sotto il cielo stellato.",
     image: "../assets/img_spa.png",
     back:  "../assets/cardback.png",
-  
+
   },
   {
     title: "Parco divertimenti celeste",
@@ -121,7 +121,7 @@ const filterExperience = (planet, type) => {
         <div class="back" style="background-image: url('${card.back}')">
           <div class="inner">
             <p class="card-text">${card.text}</p>
-            <a href="${card.link}" class="btn btn-secondary">Scopri di più</a>
+            <a href="${card.link}" class="btn btn-secondary mt-3">Scopri di più</a>
           </div>
         </div>
       </div>
