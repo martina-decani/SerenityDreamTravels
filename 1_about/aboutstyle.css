@@ -189,14 +189,20 @@ h1 {
     margin-left: 1.88rem;
 }
 
+
+
+
 .review_card:hover {
     .review_content {
+
         opacity: 100%;
     }
 }
 
 .review_copy {
-    color: white;
+
+
+color: white;
     font-family: Montserrat;
     font-size: 0.9375rem;
     font-style: normal;
@@ -204,6 +210,8 @@ h1 {
     line-height: normal;
     align-self: stretch;
     text-align: left;
+
+
 }
 
 #card1 {
