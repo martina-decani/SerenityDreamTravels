@@ -88,6 +88,24 @@ body{
   padding-bottom: 10px;
 }
 
+.link{
+  font-family: Montserrat;
+  font-size: clamp(15px, 2vw, 20px);
+  font-weight: 550;
+  line-height: 100%;
+  color: #F7F6FE;
+  text-decoration: none;
+}
+
+.link:active{
+  font-family: Montserrat;
+  font-size: clamp(18px, 3vw, 20px);
+  font-weight: 550;
+  line-height: 100%;
+  color: #3331b7;
+  text-decoration: none;
+}
+
 .cta:hover{
   background-color: #3331b7;
 }
