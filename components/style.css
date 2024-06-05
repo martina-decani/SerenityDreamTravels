@@ -76,7 +76,7 @@ body{
 
 .cta{
   font-family: Montserrat;
-  font-size: clamp(15px, 2vw, 20px);
+  font-size: clamp(15px, 3vw, 20px);
   font-weight: 550;
   line-height: 100%;
   background-color: #6865FF;
@@ -87,12 +87,12 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
-  width: fit-content;
+  
 }
 
 .link{
   font-family: Montserrat;
-  font-size: clamp(15px, 2vw, 20px);
+  font-size: clamp(10px, 2vw, 18px);
   font-weight: 550;
   line-height: 100%;
   color: #F7F6FE;
