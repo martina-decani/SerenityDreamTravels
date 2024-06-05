@@ -163,14 +163,37 @@ h1 {
 #reviewdiv {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem ;
+    gap: 2rem;
+
+
 }
 
 .review_card {
+    position: relative;
     top: 3.13rem;
     width: 16rem;
     height: 21.125rem;
     margin: auto;
+    background-size: cover;
+    overflow: hidden;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.review_card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.review_card:hover::before {
+    opacity: 1;
 }
 
 .review_name {
@@ -182,27 +205,24 @@ h1 {
     line-height: normal;
     padding-left: 1.88rem;
     padding-top: 1.88rem;
+    position: relative;
+    z-index: 1;
 }
 
 .review_content {
     opacity: 0;
     margin-left: 1.88rem;
+    position: relative;
+    z-index: 1;
+    transition: opacity 0.3s ease;
 }
 
-
-
-
-.review_card:hover {
-    .review_content {
-
-        opacity: 100%;
-    }
+.review_card:hover .review_content {
+    opacity: 1;
 }
 
 .review_copy {
-
-
-color: white;
+    color: white;
     font-family: Montserrat;
     font-size: 0.9375rem;
     font-style: normal;
@@ -210,31 +230,34 @@ color: white;
     line-height: normal;
     align-self: stretch;
     text-align: left;
-
-
 }
 
 #card1 {
     background-image: url("Images/Zarnak.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
 #card2 {
-    Background-image: url("Images/Light.png");
+    background-image: url("Images/Light.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #card3 {
-    Background-image: url("Images/Goku.png");
+    background-image: url("Images/Goku.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #card4 {
-    Background-image: url("Images/Synthra.png");
+    background-image: url("Images/Synthra.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-    @media screen and (min-width: 768px) {
-       #reviewdiv {
-        flex-direction: row;
-    }
-    }
+@media screen and (min-width: 768px) {
+   #reviewdiv {
+    flex-direction: row;
+   }
+}
