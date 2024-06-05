@@ -56,32 +56,7 @@
     padding-bottom: 20px;
 }
 
-.card button {
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 100%;
-    background-color: #6865FF;
-    color: #F7F6FE;
-    border: none;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-.card button:hover{
-    background-color: #3331b7;
-}
-
-.card button:active{
-    background-color: #F7F6FE;
-    color: #3331b7;
-}
-
-.card button:focus{
-    background-color: #F7F6FE;
-    color: #3331b7;
-}
 
 .item {
     padding-top: 20px;

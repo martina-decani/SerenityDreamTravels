@@ -83,28 +83,9 @@ body{
   color: #F7F6FE;
   border: none;
   border-radius: 5px;
-  padding-inline:30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-decoration: none;
-  
-}
-
-.link{
-  font-family: Montserrat;
-  font-size: clamp(10px, 2vw, 18px);
-  font-weight: 550;
-  line-height: 100%;
-  color: #F7F6FE;
-  text-decoration: none;
-}
-
-.link:active{
-  font-family: Montserrat;
-  font-size: clamp(18px, 3vw, 20px);
-  font-weight: 550;
-  line-height: 100%;
-  color: #3331b7;
+  padding-inline: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-decoration: none;
 }
 
@@ -146,6 +127,7 @@ body{
 
 .location-tag:focus{
   background-color: #F7F6FE;
+  color: #6865FF;
 }
 
 /* BUTTONS | FOOTER */
