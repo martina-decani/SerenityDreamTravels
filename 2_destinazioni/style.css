@@ -72,7 +72,7 @@
 .card button:hover{
     background-color: #3331b7;
 }
-  
+
 .card button:active{
     background-color: #F7F6FE;
     color: #3331b7;
@@ -114,4 +114,8 @@
     font-weight: 600;
     line-height: 100%;
     margin: 0;
+}
+
+.spacer{
+    height:3rem;
 }
