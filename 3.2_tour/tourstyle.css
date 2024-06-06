@@ -1,114 +1,116 @@
-#header-bg{
-    background-image: url('../assets/safari.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:absolute;
-    z-index:-1;
-    width: 100%;
-    height: 120%;
+#header-bg {
+  background-image: url('../assets/safari.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
 }
 
 
 .cta {
-    color:white;
-    background-color: #6865FF;
-    text-transform: uppercase;
+  color: white;
+  background-color: #6865FF;
+  text-transform: uppercase;
 }
-.cta:hover{
-    background-color: #4441da;
+
+.cta:hover {
+  background-color: #4441da;
 }
-.cta:active{
-    background-color: white;
-    color:#6865FF;
+
+.cta:active {
+  background-color: white;
+  color: #6865FF;
 }
 
 h1 {
-    font-family: against;
-    font-size: clamp(60px, 5vw, 80px);
-    font-weight: 400;
-    line-height: 120%;
-    height: fit-content;
-    width: fit-content;
-    text-align:center;
-    background-color: rgba(255, 0, 0, 0);
+  font-family: against;
+  font-size: clamp(60px, 5vw, 80px);
+  font-weight: 400;
+  line-height: 120%;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 h2 {
-    font-family: Montserrat;
-    font-size: clamp(22px, 2vw, 40px);
-    font-weight: 400;
-    line-height: 20px;
-    line-height: 100%;
-    height: fit-content;
-    width: fit-content;
-    text-transform: uppercase;
-    background-color: rgba(255, 0, 0, 0);
+  font-family: Montserrat;
+  font-size: clamp(22px, 2vw, 40px);
+  font-weight: 400;
+  line-height: 20px;
+  line-height: 100%;
+  height: fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 h3 {
-    font-family: Montserrat;
-    font-size: clamp(15px, 6vw, 30px);
-    font-weight: 600;
-    line-height: 100%;
-    height: fit-content;
-    width: fit-content;
-    background-color: rgba(255, 0, 0, 0);
+  font-family: Montserrat;
+  font-size: clamp(15px, 6vw, 30px);
+  font-weight: 600;
+  line-height: 100%;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgba(255, 0, 0, 0);
 
 }
 
-h4{
-    font-family: Montserrat;
-    font-size: clamp(20px, 2vw, 20px);
-    font-weight: 600;
-    line-height: 100%;
-    height: fit-content;
-    width: fit-content;
-    background-color: rgba(255, 0, 0, 0);
+h4 {
+  font-family: Montserrat;
+  font-size: clamp(20px, 2vw, 20px);
+  font-weight: 600;
+  line-height: 100%;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgba(255, 0, 0, 0);
 }
 
-p{
-    font-family: Montserrat;
-    font-size: clamp(13px, 2vw, 16px);
-    font-weight: 400;
-    line-height: 160%;
-    text-align: left;
-    color:#211E43;
+p {
+  font-family: Montserrat;
+  font-size: clamp(13px, 2vw, 16px);
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+  color: #211E43;
 }
 
 #tag-button {
-    height: fit-content;
-    width: fit-content;
-    border: none;
-    padding: 8px 20px 7px 20px;
-    border-radius: 50px;
-    font-family: Montserrat;
-    font-size: clamp(20px, 2vw, 25px);
-    font-weight: 600;
-    color:white;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  padding: 8px 20px 7px 20px;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-size: clamp(20px, 2vw, 25px);
+  font-weight: 600;
+  color: white;
 }
 
-#tag-button:hover{
-    background-color: rgba(255, 255, 255, 0.187);
-    backdrop-filter: blur(10px);
+#tag-button:hover {
+  background-color: rgba(255, 255, 255, 0.187);
+  backdrop-filter: blur(10px);
 }
 
-#tag-button:active{
-    background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(10px);
-    color:#6865FF;
+#tag-button:active {
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  color: #6865FF;
 }
 
 .header-button {
-    height: 70px;
-    width: 15rem;
-    padding: 10px 40px 10px 40px;
-    border: none;
-    border-radius: 10px;
-    font-family: Montserrat;
-    font-size: clamp(20px, 2vw, 20px);
-    font-weight: 600;
-    line-height: 100%;
+  height: 70px;
+  width: 15rem;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-size: clamp(20px, 2vw, 20px);
+  font-weight: 600;
+  line-height: 100%;
 }
 
 
@@ -119,16 +121,16 @@ p{
 .intro {
   background-color: rgba(158, 158, 158, 0.155);
   backdrop-filter: blur(10px);
-  border:none;
-    padding: 100px 0;
-  }
+  border: none;
+  padding: 100px 0;
+}
 
-  .container2 {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
+.container2 {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .timeline ul {
   padding: 50px 0;
@@ -163,7 +165,7 @@ p{
   padding: 15px;
   background-color: rgba(158, 158, 158, 0.155);
   backdrop-filter: blur(10px);
-  border:none;
+  border: none;
 }
 
 .timeline ul li div::before {
@@ -202,13 +204,13 @@ time {
   margin-bottom: 8px;
 }
 
-#tours_text{
+#tours_text {
   font-family: against;
-    font-size: clamp(60px, 5vw, 80px);
-    font-weight: 400;
-    line-height: 120%;
-   color: #F7F6FE;
-    text-align:center;
+  font-size: clamp(60px, 5vw, 80px);
+  font-weight: 400;
+  line-height: 120%;
+  color: #F7F6FE;
+  text-align: center;
 }
 
 
@@ -253,6 +255,7 @@ time {
   .timeline ul li div {
     width: 250px;
   }
+
   .timeline ul li:nth-child(even) div {
     left: -289px;
     /*250+45-6*/
@@ -263,12 +266,15 @@ time {
   .timeline ul li {
     margin-left: 20px;
   }
+
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
+
   .timeline ul li:nth-child(even) div {
     left: 45px;
   }
+
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
@@ -293,30 +299,26 @@ time {
 }
 
 .timeline-star ul li::after {
-  clip-path: polygon(
-    50% 0%,
-    61% 35%,
-    98% 35%,
-    68% 57%,
-    79% 91%,
-    50% 70%,
-    21% 91%,
-    32% 57%,
-    2% 35%,
-    39% 35%
-  );
+  clip-path: polygon(50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%);
 }
 
 .timeline-heptagon ul li::after {
-  clip-path: polygon(
-    50% 0%,
-    90% 20%,
-    100% 60%,
-    75% 100%,
-    25% 100%,
-    0% 60%,
-    10% 20%
-  );
+  clip-path: polygon(50% 0%,
+      90% 20%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 20%);
 }
 
 .timeline-infinite ul li::after {
@@ -327,15 +329,16 @@ time {
   0% {
     transform: translateX(-50%) scale(1);
   }
+
   50% {
     transform: translateX(-50%) scale(1.25);
   }
+
   100% {
     transform: translateX(-50%) scale(1);
   }
 }
 
-.center{
+.center {
   text-align: center;
 }
-

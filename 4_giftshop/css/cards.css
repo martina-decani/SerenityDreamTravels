@@ -15,9 +15,9 @@
     font-weight: 600;
     text-align: left;
     margin-bottom: 10px;
-  }
-  
-  .card-grid h2 {
+}
+
+.card-grid h2 {
     color: var(--fill-default-main, #FFF);
     font-family: "Montserrat";
     font-size: 17px;
@@ -25,9 +25,9 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-  }
-  
-  .card-grid p {
+}
+
+.card-grid p {
     color: var(--dark, #FFF);
     text-align: center;
     font-family: "Montserrat";
@@ -35,7 +35,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
+}
 
 .card-container {
     width: 300px;
@@ -74,9 +74,9 @@
     object-fit: cover;
     object-position: center;
     height: 100%;
-    width: 100%;    
+    width: 100%;
 
-    
+
 }
 
 .card-container:hover .front,
@@ -92,26 +92,26 @@
     position: absolute;
     top: 0;
     height: 100%;
-    background:url("../assets/cardback.png");
+    background: url("../assets/cardback.png");
 }
 
 .card-text {
     position: static;
-    color: #fff; 
+    color: #fff;
     font-family: 'Against', sans-serif;
     font-size: 2.5rem !important;
     font-weight: 600 !important;
-  }
+}
 
-  .card-text-container {
+.card-text-container {
     display: flex;
     align-items: center;
-  }
-  
-  .currency-icon {
+}
+
+.currency-icon {
     margin-left: 10px;
     width: 30px;
-  }
+}
 
 .front {
     height: 100%;
@@ -173,11 +173,11 @@
     padding: 70px;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  #smart-box-list a {
+#smart-box-list a {
     text-decoration: none;
-  }
+}
 
 .box-image {
     position: relative;
@@ -223,14 +223,14 @@
 }
 
 .box-text h1 {
-        color: var(--fill-default-main, #FFF);
-        font-family: "Montserrat";
-        font-size: 21px;
-        font-style: normal;
-        font-weight: 600;
-        text-align: left;
-        margin-bottom: 10px; 
-        margin-left: 10px;
+    color: var(--fill-default-main, #FFF);
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .currency-iconn {
