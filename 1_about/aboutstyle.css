@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-/* ! Reset */
+/* ! Reset */ 
 body,
 html {
     background-color: white;
@@ -383,25 +383,25 @@ h1 {
 }
 
 #card1 {
-    background-image: url("Images/Zarnak.png");
+    background-image: url("/assets/Zarnak.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card2 {
-    background-image: url("Images/Light.png");
+    background-image: url("/assets/Light.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card3 {
-    background-image: url("Images/Goku.png");
+    background-image: url("/assets/Goku.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card4 {
-    background-image: url("Images/Synthra.png");
+    background-image: url("/assets/Synthra.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
