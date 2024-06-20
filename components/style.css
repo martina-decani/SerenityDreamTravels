@@ -24,7 +24,7 @@ body {
 
 /* HEADER INFO */
 
-#info {
+.info {
   height: 65px;
   max-width: 100%;
 }
@@ -114,6 +114,7 @@ body {
   color: #F7F6FE;
   margin: 0;
   line-height: 100%;
+  text-decoration: none;
 }
 
 .location-tag:hover {
