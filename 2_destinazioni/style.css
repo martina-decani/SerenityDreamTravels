@@ -13,7 +13,7 @@
 }
 
 .picture img {
-    width: 100%; /* Assicura che l'immagine sia responsiva */
+    width: 100%;
     padding-top: 20px;
 }
 
@@ -91,6 +91,6 @@
     margin: 0;
 }
 
-.spacer{
-    height:3rem;
+.spacer {
+    height: 3rem;
 }

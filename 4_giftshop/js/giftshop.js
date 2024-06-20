@@ -3,7 +3,7 @@
 const cardData = [
   {
     text: "100",
-    image:"../assets/gift1.png",
+    image: "../assets/gift1.png",
   },
   {
     text: "200",
@@ -29,12 +29,12 @@ const cardData = [
 
 // GIFTCARDS
 
-  const cardListElement = document.getElementById("card-list");
+const cardListElement = document.getElementById("card-list");
 
-  cardListElement.innerHTML = "";
+cardListElement.innerHTML = "";
 
-  cardData.forEach((card) => {
-    cardListElement.innerHTML += `
+cardData.forEach((card) => {
+  cardListElement.innerHTML += `
     <div class="card-container">
       <div class="front" style="background-image: url('${card.image}')">
         <div class="inner">
@@ -51,7 +51,7 @@ const cardData = [
       </div>
     </div>
     `;
-  });
+});
 
 // SMART BOX DATA
 
@@ -59,24 +59,24 @@ const smartBoxData = [
   {
     text: "Safari Astrale",
     image: "../assets/img_safari.png",
-    value:"31.000",
-    link:"../3.2_tour/tour.html",
+    value: "31.000",
+    link: "../3.2_tour/tour.html",
   },
   {
     text: "Fuga d'amore spaziale",
     image: "../assets/img_fuga.png",
-    value:"57.100",
-    link:"../3.1_viaggio/viaggio.html",
+    value: "57.100",
+    link: "../3.1_viaggio/viaggio.html",
   },
   {
     text: "Settimana Bianca Lattea",
-    image:"../assets/img_neve.png",
-    value:"10.000",
+    image: "../assets/img_neve.png",
+    value: "10.000",
   },
   {
     text: "Campeggio Stellare",
     image: "../assets/img_campeggio.png",
-    value:"20.000",
+    value: "20.000",
   }
 ];
 
