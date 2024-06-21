@@ -42,7 +42,7 @@
     font-weight: bold;
 }
 
-.info h3 {
+.data h3 {
     font-size: 15px;
     margin-bottom: 10px;
     color: #211E43;
@@ -75,7 +75,7 @@
     text-align: center;
 }
 
-.item .info {
+.item .data {
     border-radius: 10px;
     padding-top: 8px;
     border: #211E43;
