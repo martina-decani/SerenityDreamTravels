@@ -21,7 +21,7 @@ const cardData = [
     text: "Un'avventura romantica a Etherealis, con serate sotto le stelle, cene gourmet e suite spaziali per un'esperienza indimenticabile.",
     image: "/img/img_fuga.png",
     back: "/img/cardback.png",
-    link: "/7_viaggio.html",
+    link: "/6_viaggio.html",
   },
   {
     title: "Safari Astrale",
@@ -30,7 +30,7 @@ const cardData = [
     text: "Un'esperienza ideale per le famiglie su Tatooine, con safari interstellari per osservare creature aliene e paesaggi spettacolari.",
     image: "/img/img_safari.png",
     back: "/img/cardback.png",
-    link: "/8_tour.html",
+    link: "/7_tour.html",
   },
   {
     title: "Campeggio stellare",

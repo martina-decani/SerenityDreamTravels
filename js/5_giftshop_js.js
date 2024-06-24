@@ -60,13 +60,13 @@ const smartBoxData = [
     text: "Safari Astrale",
     image: "/img/img_safari.png",
     value: "31.000",
-    link: "/8_tour.html",
+    link: "/7_tour.html",
   },
   {
     text: "Fuga d'amore spaziale",
     image: "/img/img_fuga.png",
     value: "57.100",
-    link: "/7_viaggio.html",
+    link: "/6_viaggio.html",
   },
   {
     text: "Settimana Bianca Lattea",

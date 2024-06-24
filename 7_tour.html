@@ -19,8 +19,8 @@
     crossorigin="anonymous"></script>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/0_style.css">
-  <link rel="stylesheet" href="/css/8_tour_style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/7_tour_style.css">
 
 
   <!-- Font | Against -->
@@ -35,7 +35,15 @@
   <script>
     $(document).ready(function () {
       $('#footer').load('/footer.html');
-      $('#navbar').load('/navbar.html');
+      $("#navbar").load("/navbar.html", function () {
+        var currentPath = window.location.pathname.replace('.html', '');
+        $("#navbar a").each(function () {
+          var linkPath = new URL(this.href).pathname.replace('.html', '');
+          if (linkPath === currentPath) {
+            $(this).addClass("active");
+          }
+        });
+      });
     });
   </script>
 </head>
